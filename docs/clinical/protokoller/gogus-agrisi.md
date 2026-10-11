@@ -60,7 +60,7 @@ Sistem soruları bu sırayla değil, **bilgi kazancına** göre seçer: açık k
 | S6 | Nefes alırken veya öksürürken artıyor mu (plöretik)? | evet/hayır | AMI LR 0,2 (plöretik ise). Pnömotoraks, PE, perikardit, pnömoni lehine (nitel) | Swap 2005 |
 | S7 | Pozisyonla değişiyor mu (öne eğilince azalıyor, sırtüstü artıyor)? | evet/hayır | AMI LR 0,3. Perikardit lehine (nitel, klasik bulgu) | Swap 2005 |
 | S8 | Ağrı yerini değiştirdi mi (göğüsten sırta veya karna indi)? | evet/hayır | Diseksiyon: göç eden ağrı LR+ 1,1–7,6 (çalışmalar arası geniş aralık) | Klompas 2002 |
-| S9 | Ağrı nereye yayılıyor? | çoklu: sol kol, sağ kol, her iki kol, çene, sırt, epigastrium, boyun | Sağ kol/omuz: AMI LR+ 4,7. Her iki kol: LR+ 4,1. Sol kol: LR+ 2,3. Sırta, kürek kemikleri arasına: diseksiyon (nitel) | Swap 2005 |
+| S9 | Ağrı nereye yayılıyor? | çoklu: sol kol, sağ kol, her iki kol, çene, sırt, epigastrium, boyun | Sağ kol/omuz: AMI LR+ 4,7 (GA 1,9–12). Her iki kol: LR+ 4,1 (Swap 2005); Fanaroff 2015 güncellemesinde 2,6 (1,8–3,7). Sol kol: LR+ 2,3. Sırta, kürek kemikleri arasına: diseksiyon (nitel) | Swap 2005; Fanaroff JAMA 2015 |
 | S10 | Şiddeti 0–10 arası kaç? Hayatınızın en şiddetli ağrısı mı? | sayı + evet/hayır | ADD-RS ağrı bileşeni ("şiddetli") | Rogers Circulation 2011 (ADD-RS) |
 
 ### 2.3 Tetikleyici ve eşlik eden
@@ -103,19 +103,19 @@ Toplam 32 soru; sistem tipik vakada 10–15'ini sorar, kalanı ya EKG/troponinde
 
 | # | Bulgu | Nasıl girilir | Etki | Kaynak |
 |---|---|---|---|---|
-| M1 | Vitaller: SKB, DKB, nabız, SS, SpO₂, ateş | sayı | SKB <100: AMI LR+ 3,1. Nabız >100: Wells +1,5; PERC (<100 koşulu). SpO₂ <%95: PERC koşulu bozulur. Şok: ADD-RS bileşeni | Swap 2005; Wells; Kline |
-| M2 | İki kol arasında SKB farkı >20 mmHg | sayı/evet-hayır | Diseksiyon: nabız/basınç farkı LR+ 5,7; ADD-RS muayene bileşeni | Klompas 2002; Rogers 2011 |
-| M3 | Nabız defisiti (radial, femoral, karotis asimetrisi) | evet/hayır | Diseksiyon LR+ 5,7 | Klompas 2002 |
+| M1 | Vitaller: SKB, DKB, nabız, SS, SpO₂, ateş | sayı | SKB ≤80: AMI LR+ 3,1. Nabız >100: Wells +1,5; PERC (<100 koşulu). SpO₂ <%95: PERC koşulu bozulur. Şok: ADD-RS bileşeni | Panju JAMA 1998 (Swap 2005'te aktarılan); Wells; Kline |
+| M2 | İki kol arasında SKB farkı >20 mmHg | sayı/evet-hayır | Diseksiyon: nabız/basınç farkı LR+ 5,7 (Klompas 2002); Ohle 2018 meta-analizinde 2,7 (GA 0,7–9,8). ADD-RS muayene bileşeni | Klompas 2002; Ohle 2018; Rogers 2011 |
+| M3 | Nabız defisiti (radial, femoral, karotis asimetrisi) | evet/hayır | Diseksiyon LR+ 5,7 (Klompas) / 2,7 (Ohle 2018). İki kaynak da: muayene diseksiyonu dışlayamaz | Klompas 2002; Ohle 2018 |
 | M4 | Yeni diyastolik üfürüm (aort yetersizliği) | evet/hayır | Diseksiyon LR+ 1,4; ADD-RS bileşeni | Klompas 2002 |
 | M5 | Fokal nörolojik defisit (göğüs ağrısıyla birlikte) | evet/hayır | Diseksiyon LR+ 6,6–33; ADD-RS bileşeni | Klompas 2002 |
-| M6 | S3 | evet/hayır | AMI LR+ 3,2; kalp yetersizliği | Swap 2005 |
-| M7 | Akciğerde ral (bilateral bazal) | evet/hayır | AMI LR+ 2,1; kalp yetersizliği | Swap 2005 |
+| M6 | S3 | evet/hayır | AMI LR+ 3,2; kalp yetersizliğinde (Wang 2005) LR+ 11 | Panju 1998; Wang JAMA 2005 |
+| M7 | Akciğerde ral (bilateral bazal) | evet/hayır | AMI LR+ 2,1; kalp yetersizliği LR+ 2,8 | Panju 1998; Wang 2005 |
 | M8 | Boyun venöz dolgunluğu | evet/hayır | Tamponad, sağ kalp yetersizliği, tansiyon pnömotoraks (nitel) | — |
 | M9 | Pulsus paradoksus >10 mmHg | sayı | Tamponad (nitel klasik) | — |
 | M10 | Perikardiyal sürtünme sesi | evet/hayır | Perikardit (nitel, özgül ama duyarlı değil) | — |
 | M11 | Solunum sesleri asimetrik / tek tarafta azalmış | evet/hayır | Pnömotoraks, efüzyon (nitel; duyarlılık düşük, grafi veya USG gerekir) | — |
 | M12 | Subkütan amfizem (boyun, göğüs) | evet/hayır | Pnömotoraks, özofagus rüptürü (kırmızı bayrak) | — |
-| M13 | Göğüs duvarı palpasyonla ağrı, aynı ağrı tekrarlanıyor | evet/hayır | AMI LR 0,3; kas-iskelet lehine. Tek başına AKS'yi kapatmaz | Swap 2005 |
+| M13 | Göğüs duvarı palpasyonla ağrı, aynı ağrı tekrarlanıyor | evet/hayır | AMI LR 0,3 (0,2–0,4); kas-iskelet lehine. Tek başına AKS'yi kapatmaz | Swap 2005; Panju 1998 |
 | M14 | Tek taraflı bacak şişliği, baldır hassasiyeti, çap farkı >3 cm | evet/hayır + cm | Wells "DVT klinik bulgusu" +3; PERC | Wells 2000 |
 | M15 | Epigastrik hassasiyet, defans | evet/hayır | Pankreatit, perfore ülser, kolesistit ayırımı (nitel) | — |
 | M16 | Dermatomal veziküler döküntü | evet/hayır | Zoster (nitel) | — |
@@ -131,7 +131,7 @@ Sistem EKG'yi okumaz; hekimin işaretlediği bulguları sınıflar ve eksik bak�
 |---|---|---|
 | STEMI | J noktasında ≥1 mm ST yükselmesi, 2 komşu derivasyon. V2–V3 için: erkek ≥40 yaş ≥2 mm, erkek <40 yaş ≥2,5 mm, kadın ≥1,5 mm | AKS **doğrulandı**, reperfüzyon yolu açılır; kalan tanılar ikincil |
 | Posterior MI | V1–V3'te ST çökmesi + dik T; V7–V9'da ≥0,5 mm yükselme (erkek <40: ≥1 mm) | Sistem V7–V9 çekilmesini ister |
-| Sağ ventrikül | İnferior STEMI'de V4R ≥1 mm | Sistem V4R ister; nitrat uyarısı |
+| Sağ ventrikül | İnferior STEMI'de V3R–V4R ≥0,5 mm (erkek <30 yaş: ≥1 mm) | Sistem V4R ister; nitrat uyarısı |
 | Sgarbossa (LBBB / paced) | Konkordan STE ≥1 mm: 5 puan; V1–V3 konkordan STD ≥1 mm: 3; diskordan STE ≥5 mm: 2. ≥3 puan özgül. Modifiye Sgarbossa: diskordan STE / S dalgası oranı ≤ −0,25 | AKS eşdeğeri |
 | De Winter | V1–V6'da J noktasında ≥1 mm yukarı eğimli ST çökmesi + uzun simetrik T; aVR'de STE | Proksimal LAD tıkanıklığı eşdeğeri; STEMI gibi yönet |
 | Wellens | Ağrısız dönemde V2–V3'te bifazik (A) veya derin simetrik negatif (B) T; R dalgaları korunmuş; troponin normal olabilir | Kritik proksimal LAD; stres testi **kontrendike**; kardiyoloji |
@@ -152,8 +152,11 @@ Kural: Devam eden ağrı ve nondiagnostik EKG → 15–30 dakikada tekrar; ağr�
 |---|---|---|---|
 | Roche Elecsys hs-cTnT | <5 ng/L | <12 ng/L ve Δ <3 ng/L | ≥52 ng/L veya Δ ≥5 ng/L |
 | Abbott Architect hs-cTnI | <4 ng/L | <5 ng/L ve Δ <2 ng/L | ≥64 ng/L veya Δ ≥6 ng/L |
-| Siemens Atellica hs-cTnI | <3 ng/L | <6 ng/L ve Δ <3 ng/L | ≥120 ng/L veya Δ ≥12 ng/L |
+| Siemens Centaur / Atellica hs-cTnI | <3 ng/L | <6 ng/L ve Δ <3 ng/L | ≥120 ng/L veya Δ ≥12 ng/L |
 | Beckman Access hs-cTnI | <4 ng/L | <5 ng/L ve Δ <4 ng/L | ≥50 ng/L veya Δ ≥15 ng/L |
+| Diğerleri (ESC Tablo 5) | Clarity 1 · Vitros 1 · Pathfast 3 · TriageTrue 4 | Clarity <2/Δ<1 · Vitros <2/Δ<1 · Pathfast <4/Δ<3 · TriageTrue <5/Δ<3 | Clarity ≥30/Δ≥6 · Vitros ≥40/Δ≥4 · Pathfast ≥90/Δ≥20 · TriageTrue ≥60/Δ≥8 |
+
+0/2 saat varyantı: Elecsys 5 / 14 ve Δ<4 / ≥52 veya Δ≥10; Architect 4 / 6 ve Δ<2 / ≥64 veya Δ≥15. 99. persentil üst sınırı: Elecsys hs-cTnT 14 ng/L; Architect hs-cTnI 26,2 ng/L (kadın 15,6, erkek 34,2). Performans (APACE, TRAPID, High-STEACS): rule-out NPV ≈ %99,5–99,9, duyarlılık ≈ %99, hastaların yaklaşık %55–60'ı rule-out koluna düşer; rule-in PPV ≈ %70–75. Rule-out miyokart enfarktüsü içindir, kararsız anginayı kapatmaz.
 
 Çıkış: "rule-out" (AKS sonsal olasılığı eşik altına iner, HEART ≤3 ile birlikte taburculuk yolu açılır), "observe" (3. saat troponin, eko, kardiyoloji), "rule-in" (NSTEMI, yatış). Hastanenin kullandığı analizör sistem kurulumunda seçilir; eşikler ona göre yüklenir. Kaynak: ESC 2020 NSTE-ACS Guideline, Tablo "0/1 h algorithm cut-offs". Diğer analizörler için kılavuz tablosu eklenecek.
 
@@ -169,13 +172,13 @@ Dikkat: Troponin yükselten AKS dışı nedenler (diseksiyon, PE, miyokardit, b�
 | Risk faktörleri | yok | 1–2 | ≥3 veya aterosklerotik hastalık öyküsü |
 | Troponin | normal | 1–3× ÜSL | >3× ÜSL |
 
-0–3: 6 haftalık MACE %1,7 (Backus 2013); 4–6: %16,6; 7–10: %50,1. Sistem "History" puanını sorgu yanıtlarından önerir, hekim onaylar.
+0–3: 6 haftalık MACE %1,7 (Backus 2013, 2.440 hasta, 10 Hollanda acili; c-istatistik 0,83); 4–6: %16,6; 7–10: %50,1. Havuzlanmış: düşük risk duyarlılığı ≈ %96,7, özgüllük ≈ %47 (Van Den Berg & Body 2018); HEART ≤3 LR 0,20 (Fanaroff 2015). Kullanım: negatif troponinle birlikte rule-out; rule-in aracı değildir. "History" maddesinin değerlendiriciler arası uyumu zayıftır; bu yüzden sistem puanı tek tek sorgu yanıtlarından önerir, hekim onaylar (CLEOS deneyimi: yapılandırılmış öyküden türetilen HEART/EDACS/T-MACS duyarlılığı 0,91–0,97).
 
 ### 5.3 Pulmoner emboli yolu
 
-1. PERC (Kline 2004): yaş <50, nabız <100, SpO₂ ≥%95, hemoptizi yok, östrojen yok, önceki VTE yok, tek taraflı bacak şişliği yok, son 4 haftada cerrahi/travma yok. Sekizi de sağlanıyor **ve** hekim ön olasılığı düşük (<%15) → PE kapanır, D-dimer istenmez (kaçırma <%2).
-2. PERC başarısızsa Wells (2000): DVT klinik bulgusu 3; PE en olası tanı 3; nabız >100: 1,5; immobilizasyon/cerrahi 4 hafta: 1,5; önceki VTE: 1,5; hemoptizi: 1; malignite: 1. ≤4 "PE olası değil" → D-dimer. >4 → doğrudan BTPA.
-3. D-dimer eşiği: standart 500 ng/mL FEU; >50 yaş için yaş × 10 ng/mL (ADJUST-PE, Righini JAMA 2014). YEARS (van der Hulle Lancet 2017): üç madde (DVT bulgusu, hemoptizi, PE en olası) sıfırsa eşik 1000 ng/mL, bir ve üstü ise 500.
+1. PERC (Kline 2004; doğrulama 2008, 8.138 hasta): yaş <50, nabız <100, SpO₂ ≥%95, hemoptizi yok, östrojen yok, önceki VTE yok, tek taraflı bacak şişliği yok, son 4 haftada hastaneye yatış gerektiren cerrahi/travma yok. Sekizi de sağlanıyor **ve** hekim ön olasılığı düşük (<%15) → PE kapanır, D-dimer istenmez. Doğrulamada 45 günlük VTE/ölüm %1,0; duyarlılık %97,4, özgüllük %21,9. PROPER (Freund JAMA 2018) randomize çalışmasında kaçırılan PE %0,1.
+2. PERC başarısızsa Wells (2000): DVT klinik bulgusu 3; PE en olası tanı 3; nabız >100: 1,5; ≥3 gün immobilizasyon veya 4 hafta içinde cerrahi: 1,5; önceki VTE: 1,5; hemoptizi: 1; malignite (6 ay içinde tedavi veya palyatif): 1. ≤4 "PE olası değil" → D-dimer; olası değil + negatif D-dimer: 3 aylık VTE %0,5 (Christopher, JAMA 2006). >4 → doğrudan BTPA. Alternatif: Revize Geneva (Le Gal 2006) tamamen nesneldir, gestalt maddesi yoktur.
+3. D-dimer eşiği: standart 500 ng/mL FEU; >50 yaş için yaş × 10 ng/mL (ADJUST-PE, Righini JAMA 2014; yaşa göre ayarlanmış eşikle dışlananlarda 3 aylık VTE %0,3). YEARS (van der Hulle Lancet 2017; 3.465 hasta): üç madde (DVT bulgusu, hemoptizi, PE en olası) sıfırsa eşik 1000 ng/mL, bir ve üstü ise 500; BTPA %48 azalır, 3 aylık VTE %0,61. Dış doğrulamada (JTH 2020) yalnızca D-dimer ile yönetilen grupta ilk testte PE %1,2; D-dimer yaş ayarlı eşiğin üstünde ama <1000 ise dikkat. Birim uyarısı: 500 ng/mL FEU ≈ 250 ng/mL DDU; hastane laboratuvarının birimi kurulumda seçilir.
 4. D-dimer eşik üstü → BTPA. Kontrast kontrendike / gebe → V/Q veya alt ekstremite venöz USG + klinik karar.
 
 ### 5.4 Aort diseksiyonu yolu
@@ -185,7 +188,7 @@ ADD-RS (Rogers 2011): üç kategori, her biri 1 puan, toplam 0–3.
 - Yüksek riskli ağrı: ani başlangıç, şiddetli, yırtıcı/parçalayıcı.
 - Yüksek riskli muayene: nabız defisiti / SKB farkı, fokal nörolojik defisit + ağrı, yeni AY üfürümü, hipotansiyon/şok.
 
-ADvISED (Nazerian Circulation 2018): ADD-RS ≤1 ve D-dimer <500 ng/mL → diseksiyon kapanır (kaçırma oranı %0,3). ADD-RS ≥2 veya D-dimer ≥500 → EKG kapılı BT anjiyografi (toraks + abdomen). Mediasten genişliği grafide: LR+ 2,0, yokluğu LR− 0,3; grafi normal olsa diseksiyon kapanmaz (Klompas 2002).
+ADvISED (Nazerian Circulation 2018; 1.850 hasta, 241 akut aort sendromu): ADD-RS ≤1 ve D-dimer <500 ng/mL → diseksiyon kapanır; duyarlılık %98,8, NPV %99,7, LR− 0,02, kaçırma oranı %0,3. Tek başına D-dimer <500: duyarlılık %96,7, özgüllük %64. Gözlemsel çalışma, randomize doğrulaması yok. ADD-RS ≥2 veya D-dimer ≥500 → EKG kapılı BT anjiyografi (toraks + abdomen). Rogers 2011 (IRAD, 2.538 hasta): ADD-RS ≥1 duyarlılığı %95,7; diseksiyonların %4,3'ü 0 puan alır. Mediasten genişliği grafide: LR+ 2,0 (Klompas) / 3,4 (Ohle 2018), yokluğu LR− 0,3; grafi normal olsa diseksiyon kapanmaz.
 
 ### 5.5 Diğer tetkikler ve ne zaman
 
@@ -198,7 +201,7 @@ ADvISED (Nazerian Circulation 2018): ADD-RS ≤1 ve D-dimer <500 ng/mL → disek
 | BT aortografi (EKG kapılı) | ADD-RS ≥2 veya D-dimer ≥500 + ADD-RS 1 | Toraks + abdomen, flap, yalancı lümen |
 | Lipaz | Epigastrik ağrı / sırta yayılan ağrı | >3× ÜSL pankreatit |
 | Hemogram, kreatinin, elektrolit, glukoz | Troponin ile aynı örnekte | Kontrast öncesi kreatinin; anemi (iskemi tetikleyici) |
-| BNP / NT-proBNP | Nefes darlığı, ral, ödem | NT-proBNP yaş eşikleri: <50 yaş >450, 50–75 >900, >75 >1800 pg/mL (ICON) |
+| BNP / NT-proBNP | Nefes darlığı, ral, ödem | NT-proBNP: <300 pg/mL dışlar (duyarlılık %93,9, NPV %98); rule-in yaşa göre <50 yaş >450, 50–75 >900, >75 >1800 pg/mL (ICON, ICON-RELOADED). BNP <100 pg/mL LR− 0,11 (Wang 2005) |
 | Laktat | Şok, hipotansiyon | >2 mmol/L hipoperfüzyon, >4 ağır |
 | Toksikoloji | Madde şüphesi | Kokain: beta bloker kaçın (nitel kılavuz) |
 
@@ -265,7 +268,15 @@ Taburculuk gerekçesi otomatik üretilir (Türkçe): "EKG iskemik değil; hs-cTn
 - Sgarbossa EB et al. NEJM 1996;334:481–487; Smith SW et al. Ann Emerg Med 2012;60:766–776 (modifiye Sgarbossa).
 - de Winter RJ et al. NEJM 2008;359:2071–2073.
 - Rhee TM et al. / de Zwaan C et al. Am Heart J 1982;103:730–736 (Wellens).
-- Januzzi JL et al. NT-proBNP in the ED (ICON). Eur Heart J 2006;27:330–337.
+- Januzzi JL et al. NT-proBNP in the ED (ICON). Eur Heart J 2006;27:330–337; ICON-RELOADED, JACC 2018.
+- Panju AA et al. Is this patient having a myocardial infarction? JAMA 1998;280:1256–1263.
+- Fanaroff AC et al. Does this patient with chest pain have acute coronary syndrome? JAMA 2015;314:1955–1965.
+- Ohle R et al. Clinical examination for acute aortic dissection: a systematic review and meta-analysis. Acad Emerg Med 2018;25:397–412.
+- Wang CS et al. Does this dyspneic patient in the ED have congestive heart failure? JAMA 2005;294:1944–1956.
+- Kline JA et al. Prospective multicenter evaluation of the PERC rule. J Thromb Haemost 2008;6:772–780; Freund Y et al. PROPER trial. JAMA 2018;319:559–566.
+- van Belle A et al. Christopher Study. JAMA 2006;295:172–179.
+- Le Gal G et al. Revised Geneva score. Ann Intern Med 2006;144:165–171.
+- Ayrıntılı derleme ve kaynak bağlantıları: `docs/clinical/decision-rules.md`.
 - Tintinalli's Emergency Medicine, 9. baskı, "Chest Pain" ve "Acute Coronary Syndromes" bölümleri. Rosen's Emergency Medicine, 10. baskı, "Chest Pain" cardinal presentation.
 - Bakanlık triyaj tebliği (13.05.2022, RG 31952).
 

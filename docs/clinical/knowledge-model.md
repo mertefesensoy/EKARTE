@@ -126,7 +126,7 @@ The ten complaints, in order of build: chest pain, dyspnea, abdominal pain, head
 
 ## 5. Sources, by role
 
-Full inventory with licences in `docs/clinical/sources.md`. Roles:
+Full inventory with licences in `docs/clinical/sources.md`. The compiled rules, likelihood ratios and thresholds for all ten complaints are in `docs/clinical/decision-rules.md`; terminologies, logic standards and datasets in `docs/clinical/standards.md`. Roles:
 
 - **Differential lists and red flags per complaint:** Tintinalli (symptom chapters), Rosen's (Cardinal Presentations), Mahadevan & Garmel (complaint-based), Stern "Symptom to Diagnosis".
 - **Likelihood ratios for history and exam:** JAMA Rational Clinical Examination series and the Simel & Rennie book; McGee "Evidence-Based Physical Diagnosis".
