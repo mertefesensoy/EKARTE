@@ -1,7 +1,7 @@
 <title>EKARTE Proje Teklifi</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-/* Layout: hospital-signage display face over a quiet clinical page; triage colours are semantic, the brand petrol-teal is the only accent. */
+/* Yerleşim: sakin bir klinik sayfa üzerinde hastane tabelası tipinde başlık yazısı; triyaj renkleri anlam taşır, petrol mavisi tek vurgu rengidir. */
 :root{
   --bg:#f5f7f9; --surface:#ffffff; --surface-2:#eef2f5; --fg:#15202b; --muted:#5b6673; --line:#d6dde4;
   --brand:#0b5d6b; --brand-ink:#083e48; --brand-soft:#dfeef0; --brand-contrast:#ffffff;
@@ -338,7 +338,7 @@ footer a{color:var(--muted)}
 
         <rect class="box" x="380" y="108" width="290" height="58" rx="8"/>
         <text x="394" y="130" style="font-weight:600">Araç katmanı</text>
-        <text class="m" x="394" y="150">start_encounter · add_findings · next_step · …</text>
+        <text class="m" x="394" y="150">vaka_baslat · bulgu_ekle · sonraki_adim · …</text>
 
         <rect class="box" x="380" y="178" width="290" height="58" rx="8"/>
         <text x="394" y="200" style="font-weight:600">Durum motoru</text>
@@ -410,13 +410,13 @@ footer a{color:var(--muted)}
       <table>
         <thead><tr><th>Araç</th><th>Girdi</th><th>Çıktı</th><th>Türkiye'ye özgü dayanak</th></tr></thead>
         <tbody>
-          <tr><td><code>start_encounter</code></td><td>Yaş, cinsiyet, triyaj rengi, ana şikâyet</td><td>Vaka kimliği; ilk ayırıcı tanı; kaçırılmaması gerekenler işaretli</td><td>Türkçe şikâyet sözlüğü, SKRS</td></tr>
-          <tr><td><code>add_findings</code></td><td>Sistem bazlı muayene bulguları, vitaller</td><td>Güncel liste; dışlanan tanılar ve dışlayan bulgu</td><td>USVS veri sözlüğü alanları</td></tr>
-          <tr><td><code>next_step</code></td><td>Vaka kimliği</td><td>Sıralı öneri: soru, manevra veya tetkik; ayırdığı hipotez; tahmini maliyet</td><td>SUT kod ve fiyatı, Bakanlık akılcı tetkik aralıkları</td></tr>
-          <tr><td><code>recommend_tests</code></td><td>Vaka kimliği</td><td>Laboratuvar paneli ve görüntüleme, gerekçeli</td><td>ACR kriterleri, TRD kılavuzları, RADİS uyumu</td></tr>
-          <tr><td><code>interpret_results</code></td><td>Lab değerleri, görüntüleme raporu, EKG tanımı</td><td>Güncel liste, kırmızı bayraklar, konsültasyon önerisi</td><td>Türkçe referans aralıkları, Türkçe radyoloji dili</td></tr>
-          <tr><td><code>disposition</code></td><td>Vaka kimliği</td><td>Taburcu / gözlem / yatış / sevk; açık dışlamalar listesi</td><td>Acil servis tebliği alanları, ASOS sevk akışı</td></tr>
-          <tr><td><code>explain</code></td><td>Herhangi bir adım</td><td>Türkçe gerekçe; dosya ve denetim için</td><td>Hekim ve kurum sorumluluğu</td></tr>
+          <tr><td><code>vaka_baslat</code></td><td>Yaş, cinsiyet, triyaj rengi, ana şikâyet</td><td>Vaka kimliği; ilk ayırıcı tanı; kaçırılmaması gerekenler işaretli</td><td>Türkçe şikâyet sözlüğü, SKRS</td></tr>
+          <tr><td><code>bulgu_ekle</code></td><td>Sistem bazlı muayene bulguları, vitaller</td><td>Güncel liste; dışlanan tanılar ve dışlayan bulgu</td><td>USVS veri sözlüğü alanları</td></tr>
+          <tr><td><code>sonraki_adim</code></td><td>Vaka kimliği</td><td>Sıralı öneri: soru, manevra veya tetkik; ayırdığı hipotez; tahmini maliyet</td><td>SUT kod ve fiyatı, Bakanlık akılcı tetkik aralıkları</td></tr>
+          <tr><td><code>tetkik_oner</code></td><td>Vaka kimliği</td><td>Laboratuvar paneli ve görüntüleme, gerekçeli</td><td>ACR kriterleri, TRD kılavuzları, RADİS uyumu</td></tr>
+          <tr><td><code>sonuc_yorumla</code></td><td>Lab değerleri, görüntüleme raporu, EKG tanımı</td><td>Güncel liste, kırmızı bayraklar, konsültasyon önerisi</td><td>Türkçe referans aralıkları, Türkçe radyoloji dili</td></tr>
+          <tr><td><code>karar_ver</code></td><td>Vaka kimliği</td><td>Taburcu / gözlem / yatış / sevk; açık dışlamalar listesi</td><td>Acil servis tebliği alanları, ASOS sevk akışı</td></tr>
+          <tr><td><code>acikla</code></td><td>Herhangi bir adım</td><td>Türkçe gerekçe; dosya ve denetim için</td><td>Hekim ve kurum sorumluluğu</td></tr>
         </tbody>
       </table>
     </div>
@@ -450,7 +450,7 @@ footer a{color:var(--muted)}
       <div class="card ev"><div class="n">%80+<small>vs %20</small></div><div><h4>Sıralı tanı çalışır</h4><p>Microsoft'un SDBench çalışmasında (2025) soru soran, tetkik isteyen orkestratör 304 NEJM vakasında yaklaşık %80 doğruluğa ulaştı; kaynaksız çalışan 21 hekim %20 civarındaydı. Zor vaka seti, acil popülasyonu değil.</p></div></div>
       <div class="card ev"><div class="n">&lt;1/10<small>doğruluk</small></div><div><h4>Döngü tek seferden çok daha zor</h4><p>AgentClinic: aynı sorular adım adım sorulduğunda bazı modellerin doğruluğu onda birin altına düştü. MediQ: saf "soru sor" istemi muhakemeyi bozuyor. Açık durum takibi şart; EKARTE'nin durum motoru bunun için var.</p></div></div>
       <div class="card ev"><div class="n">62–97<small>% acil vakalarda</small></div><div><h4>Acilde liste üretimi iyi</h4><p>Hollanda, Almanya, ABD ve Çin'den geriye dönük çalışmalar, dil modellerinin acil hekimleriyle eşit veya üstün ayırıcı tanı listesi ürettiğini gösteriyor; özellikle spesifik ve cerrahi tanılarda.</p></div></div>
-      <div class="card ev"><div class="n">2.400<small>gerçek vaka</small></div><div><h4>Sonuç yorumu zayıf halka</h4><p>Nature Medicine (2024): dört karın patolojisinde modeller kılavuza uyum ve sonuç yorumunda hekimlerden kötü kaldı. Bu yüzden <code>interpret_results</code> ayrı, kılavuza bağlı bir araçtır.</p></div></div>
+      <div class="card ev"><div class="n">2.400<small>gerçek vaka</small></div><div><h4>Sonuç yorumu zayıf halka</h4><p>Nature Medicine (2024): dört karın patolojisinde modeller kılavuza uyum ve sonuç yorumunda hekimlerden kötü kaldı. Bu yüzden <code>sonuc_yorumla</code> ayrı, kılavuza bağlı bir araçtır.</p></div></div>
       <div class="card ev"><div class="n">0,01<small>etki, acil alt grubu</small></div><div><h4>Hekime faydası henüz kanıtlanmadı</h4><p>Beş randomize çalışmanın meta-analizi: yapay zekâ karar desteği acil tıpta hekim doğruluğunu neredeyse değiştirmedi (radyolojide 0,38). Prospektif doğrulama projenin parçası olmak zorunda.</p></div></div>
       <div class="card ev"><div class="n">600<small>Türkçe not</small></div><div><h4>Türkçe veri ilk kez</h4><p>Marmara Üniversitesi Pendik (NCT07632859): GPT-4o ve Claude Sonnet, üç uzman konsensüsüne karşı. Tamamlandı, sonuç bekleniyor. Protokol, bizim doğrulama tasarımımızın şablonu.</p></div></div>
     </div>
@@ -466,7 +466,7 @@ footer a{color:var(--muted)}
     <div class="grid g3">
       <div class="card"><h4>KVKK</h4><p>Sağlık verisi özel niteliklidir. 2024 değişikliği belirli yasal dayanaklarla açık rızasız işlemeye ve yeterlilik kararına bağlı yurt dışı aktarıma izin verir; kararlar henüz tamamlanmamıştır.</p><p><strong>Tasarım kararı:</strong> çıkarım yurt içinde; dışarıya yalnızca kimliksiz veri; ham not hastane ağında kalır.</p></div>
       <div class="card"><h4>TİTCK</h4><p>TİTCK, AB MDR tanımını ve MDCG 2019-11 karar akışını izler. Bireysel hastanın tanı veya tedavi kararına bilgi üreten yazılım büyük olasılıkla tıbbi cihazdır (IIa veya üstü).</p><p><strong>Tasarım kararı:</strong> kalite yönetim sistemi ve klinik değerlendirme dosyası 1. fazda başlar; sınıf, regülasyon danışmanıyla netleştirilir.</p></div>
-      <div class="card"><h4>Sorumluluk</h4><p>Yapay zekâya özgü yasa yok; nihai sorumluluk hekim ve kurumdadır.</p><p><strong>Tasarım kararı:</strong> <code>explain</code> ve denetim günlüğü isteğe bağlı değil, zorunlu. Sistem tek bir cevap sunmaz; açık dışlamaları ve soruları gösterir. Açık kaçırılmaması gereken tanı varken taburculuk için hekim onayı istenir.</p></div>
+      <div class="card"><h4>Sorumluluk</h4><p>Yapay zekâya özgü yasa yok; nihai sorumluluk hekim ve kurumdadır.</p><p><strong>Tasarım kararı:</strong> <code>acikla</code> ve denetim günlüğü isteğe bağlı değil, zorunlu. Sistem tek bir cevap sunmaz; açık dışlamaları ve soruları gösterir. Açık kaçırılmaması gereken tanı varken taburculuk için hekim onayı istenir.</p></div>
     </div>
   </div>
 </section>
